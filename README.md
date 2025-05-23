@@ -13,6 +13,7 @@ A puchase market page {
     -you can purchase multiple items and add/remove items  
     -there is a summary puchase  
 }  
+Tailwind was used.  
 Developped by me @DaemoniaX the 21/05/2025 FR. It will be improved after the exam period.  
 ## Development server
 
