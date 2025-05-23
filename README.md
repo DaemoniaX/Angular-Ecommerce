@@ -1,29 +1,19 @@
 # Angular1
 
-This project was developed using Angular CLI version 19.2.12.
-
-It is a basic, unfinished e-commerce application featuring:
-
-🛒 Purchase Page
-Dynamic stock indicator (only indicates whether stock is available; the stock count does not decrease when items are "purchased").
-
-Product display module: includes picture, description, and price.
-
-Header with links to the cart and homepage.
-
-"About Us" section (currently just text, not linked or scrollable).
-
-🧺 Cart Page
-All items are displayed as a list of blocks.
-
-You cannot add items that are out of stock.
-
-Supports adding/removing multiple items.
-
-Includes a purchase summary.
-
-Developed by @DaemoniaX on 21/05/2025 (France).
-This project will be improved after the exam period.
+This project was developped using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12.  
+It is a basic unfinished E-commerce app with :  
+A puchase market page {  
+      -dynamic stock indicator(half since it shows if there is stock, but if you "purchase" some, the stock will not decrease)  
+      -[picture + description + price] module  
+      -header links to cart and homepage when clicking  
+      -About us section, links not there it's just text, and it is not linked down  
+}A cart market page{  
+      -all of the items are added as a list of blocks  
+      -you can't add items that are out of stocks  
+      -you can purchase multiple items and add/remove items  
+      -there is a summary puchase  
+}  
+Developped by me @DaemoniaX the 21/05/2025 FR. It will be improved after the exam period.  
 ## Development server
 
 To start a local development server you need first to install angular throught npm, then run:
