@@ -1,30 +1,29 @@
 # Angular1
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12.
+This project was developped using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12. 
+It is a basic unfinished E-commerce app with :
+A puchase market page {
+      -dynamic stock indicator(half since it shows if there is stock, but if you "purchase" some, the stock will not decrease)
+      -[picture + description + price] module
+      -header links to cart and homepage when clicking
+      -About us section, links not there it's just text, and it is not linked down
+}A cart market page{
+      -all of the items are added as a list of blocks
+      -you can't add items that are out of stocks
+      -you can purchase multiple items and add/remove items
+      -there is a summary puchase
+}
+Developped by me @DaemoniaX the 21/05/2025 FR. It will be improved after the exam period.
 
 ## Development server
 
-To start a local development server, run:
+To start a local development server you need first to install angular throught npm, then run:
 
 ```bash
 ng serve
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
 
 ## Building
 
