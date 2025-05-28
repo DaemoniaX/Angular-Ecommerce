@@ -52,7 +52,16 @@ ng e2e
 ```
 
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## Docker part
+  
+The docker image is accessible at daemoniax/angular-ecommerce-app-dockerversion or at https://hub.docker.com/r/daemoniax/angular-ecommerce-app-dockerversion,  
+you can pull the image using :
 
+```bash
+docker pull daemoniax/angular-ecommerce-app-dockerversion
+```
+
+The Dockerfile and .dockerignore are in the github folder, even tho node_module folder is not incuded in the github repo.
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
