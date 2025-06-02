@@ -6,7 +6,7 @@ A puchase market page {
     -dynamic stock indicator(half since it shows if there is stock, but if you "purchase" some, the stock will not decrease)  
     -[picture + description + price] module  
     -header links to cart and homepage when clicking  
-    -About us section, links not there it's just text, and it is not linked down  
+    -About us section, links not there it's just text, and it is ~~not~~ linked down(fix 02/06/2025)  
 }A cart market page{  
     -all of the items are added as a list of blocks  
     -you can't add items that are out of stocks  
@@ -61,7 +61,8 @@ you can pull the image using :
 docker pull daemoniax/angular-ecommerce-app-dockerversion
 ```
 
-The Dockerfile and .dockerignore are in the github folder, even tho node_module folder is not incuded in the github repo.
+The Dockerfile and .dockerignore are in the github folder, even tho node_module folder is not incuded in the github repo.  
+Note : The DockerFile is not upToDate, it does not have the fix 02/06/2025.
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
