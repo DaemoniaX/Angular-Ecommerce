@@ -103,10 +103,10 @@ Contributions, issues and feature requests are welcome! Please feel free to:
 
 ## ✉️ Contact
 
-**Name**: Antonin Marolleau
-**School**: ESIEE Paris – Integrated Engineering Program second year
-**Email**: [antonin.marolleau@edu.esiee.fr](mailto:antonin.marolleau@edu.esiee.fr)
-**LinkedIn**: [https://www.linkedin.com/in/antonin-marolleau-7b5497339](https://www.linkedin.com/in/antonin-marolleau-7b5497339)
+**Name**: Antonin Marolleau  
+**School**: ESIEE Paris – Integrated Engineering Program second year  
+**Email**: [antonin.marolleau@edu.esiee.fr](mailto:antonin.marolleau@edu.esiee.fr)  
+**LinkedIn**: [https://www.linkedin.com/in/antonin-marolleau-7b5497339](https://www.linkedin.com/in/antonin-marolleau-7b5497339)  
 
 ---
 
