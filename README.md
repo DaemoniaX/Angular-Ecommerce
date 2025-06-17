@@ -1,9 +1,3 @@
-#
-
-#
-
-#
-
 # Angular E‑Commerce
 
 A modern  e-commerce front-end built with Angular (v19), TypeScript, Angular Material & RxJS. This project showcases a responsive product catalog, shopping cart workflow, and integration with a RESTful API.
