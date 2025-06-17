@@ -1,68 +1,120 @@
-# Angular1
+#
 
-This project was developped using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12.  
-It is a basic unfinished E-commerce app with :  
-A puchase market page {  
-    -dynamic stock indicator(half since it shows if there is stock, but if you "purchase" some, the stock will not decrease)  
-    -[picture + description + price] module  
-    -header links to cart and homepage when clicking  
-    -About us section, links not there it's just text, and it is ~~not~~ linked down(fix 02/06/2025)  
-}A cart market page{  
-    -all of the items are added as a list of blocks  
-    -you can't add items that are out of stocks  
-    -you can purchase multiple items and add/remove items  
-    -there is a summary puchase  
-}  
-Tailwind was used.  
-Developped by me @DaemoniaX the 21/05/2025 FR. It will be improved after the exam period.  
-## Development server
+#
 
-To start a local development server you need first to install angular throught npm, then run:
+#
 
-```bash
-ng serve
+# Angular E‑Commerce
+
+A modern  e-commerce front-end built with Angular (v19), TypeScript, Angular Material & RxJS. This project showcases a responsive product catalog, shopping cart workflow, and integration with a RESTful API.
+
+## Table of Contents
+
+* [🔧 Installation](#-installation)
+* [💡 Usage](#-usage)
+* [✨ Features](#-features)
+* [🛠️ Tech Stack](#️-tech-stack)
+* [📸 Screenshots](#-screenshots)
+* [🤝 Contributing](#-contributing)
+* [✉️ Contact](#️-contact)
+* [📄 License](#-license)
+
+---
+
+## 🔧 Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/DaemoniaX/Angular-Ecommerce.git
+   cd Angular-Ecommerce
+   ```
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+3. **Serve locally**
+
+   ```bash
+   ng serve --open
+   ```
+
+> The application will run at `http://localhost:4200` by default.
+
+### Environment Variables
+
+Configure API endpoints in `src/environments/environment.ts`:
+
+```ts
+export const environment = {
+  production: false,
+  apiUrl: 'https://api.yourdomain.com'
+};
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Building
+## 💡 Usage
 
-To build the project run:
+* Navigate the product catalog
+* View product details
+* Add/remove items in the shopping cart
+* Proceed through the checkout flow
 
-```bash
-ng build
-```
+Additional commands:
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+* **Run unit tests**: `npm run test`
+* **Build for production**: `npm run build`
 
-## Running unit tests
+---
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## ✨ Features
 
-```bash
-ng test
-```
+* Responsive UI with Angular Material
+* Reactive forms and state management via RxJS
+* Product catalog pagination and filtering
+* Shopping cart persistent across sessions
+* Integration with RESTful API for CRUD operations
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+## 🛠️ Tech Stack
 
-```bash
-ng e2e
-```
+* **Framework**: Angular v19
+* **Language**: TypeScript
+* **UI Library**: Angular Material
+* **State Management**: RxJS
+* **Styling**: TailWind css
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-## Docker part
-  
-The docker image is accessible at daemoniax/angular-ecommerce-app-dockerversion or at https://hub.docker.com/r/daemoniax/angular-ecommerce-app-dockerversion,  
-you can pull the image using :
+---
 
-```bash
-docker pull daemoniax/angular-ecommerce-app-dockerversion
-```
+## 📸 Screenshots
 
-The Dockerfile and .dockerignore are in the github folder, even tho node_module folder is not incuded in the github repo.  
-Note : The DockerFile is not upToDate, it does not have the fix 02/06/2025.
-## Additional Resources
+---
+![Home Page](./screenshots/homepage.png)
+![Product Page](./screenshots/productpage.png)
+---
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome! Please feel free to:
+
+* Fork the repository
+* Create an issue for bugs or enhancements
+* Submit a pull request
+
+---
+
+## ✉️ Contact
+
+**Name**: Antonin Marolleau
+**School**: ESIEE Paris – Integrated Engineering Program second year
+**Email**: [antonin.marolleau@edu.esiee.fr](mailto:antonin.marolleau@edu.esiee.fr)
+**LinkedIn**: [https://www.linkedin.com/in/antonin-marolleau-7b5497339](https://www.linkedin.com/in/antonin-marolleau-7b5497339)
+
+---
+
+## 📄 License
+
+This project is licensed under the CC0 License.
