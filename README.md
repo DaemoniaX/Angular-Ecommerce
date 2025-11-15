@@ -70,6 +70,7 @@ Additional commands:
 * Product catalog pagination and filtering
 * Shopping cart persistent across sessions
 * Integration with RESTful API for CRUD operations
+* Fully able to works with the upcomming backend
 
 ---
 
