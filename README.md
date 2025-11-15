@@ -1,59 +1,115 @@
-# Angular1
+# Angular E‑Commerce
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12.
+A modern  e-commerce front-end built with Angular (v19), TypeScript, Angular Material & RxJS. This project showcases a responsive product catalog, shopping cart workflow, and integration with a RESTful API.
 
-## Development server
+## Table of Contents
 
-To start a local development server, run:
+* [🔧 Installation](#-installation)
+* [💡 Usage](#-usage)
+* [✨ Features](#-features)
+* [🛠️ Tech Stack](#️-tech-stack)
+* [📸 Screenshots](#-screenshots)
+* [🤝 Contributing](#-contributing)
+* [✉️ Contact](#️-contact)
+* [📄 License](#-license)
 
-```bash
-ng serve
+---
+
+## 🔧 Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/DaemoniaX/Angular-Ecommerce.git
+   cd Angular-Ecommerce
+   ```
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+3. **Serve locally**
+
+   ```bash
+   ng serve --open
+   ```
+
+> The application will run at `http://localhost:4200` by default.
+
+### Environment Variables
+
+Configure API endpoints in `src/environments/environment.ts`:
+
+```ts
+export const environment = {
+  production: false,
+  apiUrl: 'https://api.yourdomain.com'
+};
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 💡 Usage
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+* Navigate the product catalog
+* View product details
+* Add/remove items in the shopping cart
+* Proceed through the checkout flow
 
-```bash
-ng generate component component-name
-```
+Additional commands:
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+* **Run unit tests**: `npm run test`
+* **Build for production**: `npm run build`
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+## ✨ Features
 
-To build the project run:
+* Responsive UI with Angular Material
+* Reactive forms and state management via RxJS
+* Product catalog pagination and filtering
+* Shopping cart persistent across sessions
+* Integration with RESTful API for CRUD operations
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 🛠️ Tech Stack
 
-## Running unit tests
+* **Framework**: Angular v19
+* **Language**: TypeScript
+* **UI Library**: Angular Material
+* **State Management**: RxJS
+* **Styling**: TailWind css
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+---
 
-```bash
-ng test
-```
+## 📸 Screenshots
 
-## Running end-to-end tests
+---
+![Home Page](./screenshots/homepage.png)
+![Product Page](./screenshots/productpage.png)
 
-For end-to-end (e2e) testing, run:
+---
 
-```bash
-ng e2e
-```
+## 🤝 Contributing
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Contributions, issues and feature requests are welcome! Please feel free to:
 
-## Additional Resources
+* Fork the repository
+* Create an issue for bugs or enhancements
+* Submit a pull request
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+
+## ✉️ Contact
+
+**Name**: Antonin Marolleau  
+**School**: ESIEE Paris – Integrated Engineering Program second year  
+**Email**: [antonin.marolleau@edu.esiee.fr](mailto:antonin.marolleau@edu.esiee.fr)  
+**LinkedIn**: [https://www.linkedin.com/in/antonin-marolleau-7b5497339](https://www.linkedin.com/in/antonin-marolleau-7b5497339)  
+
+---
+
+## 📄 License
+
+This project is licensed under the CC0 License.
