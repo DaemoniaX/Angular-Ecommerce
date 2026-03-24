@@ -1,5 +1,14 @@
 # Angular E‑Commerce
 
+# note like 10 month after the initial release
+
+As I said before, I like to let the project as it is, to mark the evolution between my past me and my current self. And I as was going throuth this old project,  
+WHY IS THERE A ".vs" and ".vscode" IN THE REPO. 0_0    
+Well I will let them be to mark my "evolution" 0_0. Letting the dist/ as well...  
+  
+# end of the note 
+  
+  
 A modern  e-commerce front-end built with Angular (v19), TypeScript, Angular Material & RxJS. This project showcases a responsive product catalog, shopping cart workflow, and integration with a RESTful API.
 
 ## Table of Contents
